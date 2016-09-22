@@ -1,0 +1,32 @@
+body {
+	background-image: url("assets/images/cork-wallet.png");
+}
+
+h1 h3 {
+	font-family: Georgia;
+
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+footer {
+	background-color: #666666;
+}
+
+#menu {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+#aboutme {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+#socialLinks {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
