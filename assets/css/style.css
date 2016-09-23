@@ -1,24 +1,40 @@
 body {
-	background-image: url("assets/images/cork-wallet.png");
+	background-image: url("assets/images/cork-wallet.png") top left repeat
+	
 }
 
 h1 h3 {
 	font-family: Georgia;
+	color: #4aaaa5;
 
 }
 
+#name {
+	background-color: #4aaaa5;
+}
+
+div h1 {
+	color: #4aaaa5;
+}
 header {
 	background-color: #ffffff;
 	border-color: #cccccc;
 }
 
-footer {
-	background-color: #666666;
-}
 
-#menu {
+img {
+	float: left;
+}
+ul li a {
 	background-color: #ffffff;
 	border-color: #dddddd;
+	text-decoration: none;
+	color: #777777;
+
+}
+
+ul li {
+	list-style: none;
 }
 
 #aboutme {
@@ -29,4 +45,16 @@ footer {
 #socialLinks {
 	background-color: #ffffff;
 	border-color: #dddddd;
+	float: right;
+}
+
+p {
+	color: #777777;
+	text-align: left;
+}
+
+#site-footer {
+	background-color: #666666;
+	height: 53px;
+
 }
