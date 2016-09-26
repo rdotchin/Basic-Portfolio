@@ -1,8 +1,24 @@
 body {
+	position: fixed;
+	margin: 0;
+	padding: 0;
 	background-image: url("assets/images/cork-wallet.png") top left repeat
 	
 }
 
+#wrapper {
+	position:relative;
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+   
+
+    height: 760px;
+
+    width:1355px;
+}
 h1 h3 {
 	font-family: Georgia;
 	color: #4aaaa5;
@@ -11,7 +27,7 @@ h1 h3 {
 
 #name {
 	position: absolute;
-	margin-left: 5%;
+	margin-left: 157px;
 	margin-top: -10px;
 	background-color: #4aaaa5;
 	height: 80px;
@@ -25,25 +41,34 @@ h1 h3 {
 #menu {
 	text-align: right;
 	padding-top:1px;
-	padding-bottom:20px;
-	margin-top: -8px;
+	padding-bottom:15px;
+	margin-top: 10px;
+	margin-right: 240px;
 	background-color: #ffffff;
 
 }
 
-ul li a {
-	margin-right: 40px;
-	background-color: #ffffff;
-	border-color: #dddddd;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+
+li a {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
 	color: #777777;
-
+	transition: 0.3s;
+	border-right: 1px solid #777777;
 }
 
-ul li {
-	display: inline;
-	list-style: none;
-}
+
 
 
 header {
@@ -60,9 +85,9 @@ header {
 	position: relative;
 	float: left;
 	margin-top: 50px;
-	margin-left: 5%;
-	width: 65%; 
-	height: 450px;
+	margin-left: 157px;
+	width: 647px; 
+	height: 478px;
 	background-color: #ffffff;
 	border: solid 2px black;
 	margin-bottom: 20px;
@@ -96,9 +121,9 @@ p {
 	position: relative;
 	float: right;
 	margin-top: 50px;
-	margin-right: 5%;
-	width: 20%;
-	height: 150px;
+	margin-right: 240px;
+	width: 268px;
+	height: 201px;
 	background-color: #ffffff;
 	border: 2px solid black;
 	text-align: center;
@@ -115,18 +140,65 @@ p {
 	position: relative;
 	font-family: arial;
 	background-color: #666666;
-	height: 53px;
+	height: 91px;
 	width: 100%;
 	clear: both;
-	border-top: 5px solid #4aaaa5;
+	border-top: 9px solid #4aaaa5;
 	
 }
 
 #footer p {
 	text-align: center;
+	
 }
+
+#portfolio{
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-left: 157px;
+	width: 650px; 
+	height: 800px;
+	background-color: #ffffff;
+	border: solid 2px black;
+	margin-bottom: 20px;
+}
+
+#portfolio h1 {
+	color: #4aaaa5;
+	margin-left: 5%;
+	border-bottom: 1px solid black;
+}
+#portfolio img {
+	position: relative;
+	border: 20px solid white;
+	column-count: 2;
+	column-gap: 10px;
+	column-span: all;
+	height: 200px;
+	width: 200px;
+}
+
 
 textarea {
 	outline: none;
 	border: 1px solid #dddddd;
+}
+
+#textinput {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-left: 157px;
+	width: 650px; 
+	height: 610px;
+	background-color: #ffffff;
+	border: solid 2px black;
+	margin-bottom: 20px;
+
+}
+
+textarea {
+	height: 200px;
+	width: 590px;
 }

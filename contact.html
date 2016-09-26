@@ -5,11 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body background="assets/images/cork-wallet.png">
+<div id="wrapper">
+	
 	<header>
-		<h1>Richard Dotchin</h1>
-
-		<!--This is the menu bar in the header-->
-
+		<!--name fixed to the upper left-->
+		<div id="name">
+			<h1>Richard Dotchin</h1>
+		</div>
+		<!--This is the menu bar in the upper right-->
 		<div id="menu">
 			<ul>
 				<li><a href="index.html">About</a></li>
@@ -19,24 +22,27 @@
 		</div>
 	</header>
 	
-	<!--heading for Contact-->
-	<h1>Contact</h1>
+	<div id="textinput">
+		<!--heading for Contact-->
+		<h1>Contact</h1>
 
-	<!--name, email, message form-->
-	<form>
-		Name<br>
-		<input type="text" name="fullname">
-		<br>
-		Email<br>
-		<input type="text" name="email">
-		<br>
-		message<br>
-		<textarea type="text" name="message"></textarea>
-		<br>
-	</form>
+		<!--name, email, message form-->
+		<form>
+			Name<br>
+			<input type="text" name="fullname">
+			<br>
+			Email<br>
+			<input type="text" name="email">
+			<br>
+			message<br>
+			<textarea type="text" name="message"></textarea>
+			<br>
+			<button>Submit</button>
+		</form>
+	</div>
 	
 	<!--button to submit their message-->
-	<button>Submit</button>
+	
 
 	<!--social links on the right side of the page-->
 	<div id="socialLinks">
@@ -46,8 +52,9 @@
 		<a href="https://stackoverflow.com/users/6862094/rdotchin?tab=profile" target="_blank"> <img src="assets/images/stackoverflow.png" alt="stackoverflow"> </a>
 	</div>
 	<!--footer of the page-->
-	<footer>
+	<footer id="footer">
 		<p>&copy;Copyright 2016 Richard Dotchin</p>
 	</footer>
+</div>
 </body>
 </html>
