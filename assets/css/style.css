@@ -2,27 +2,26 @@ body {
 	position: fixed;
 	margin: 0;
 	padding: 0;
-	background-image: url("assets/images/cork-wallet.png") top left repeat
+	background-image: url("../images/cork-wallet.png");
 	
 }
 
 #wrapper {
 	position:relative;
-
     margin-left:auto;
-
     margin-right:auto;
-
-   
-
     height: 760px;
-
     width:1355px;
 }
+
 h1 h3 {
 	font-family: Georgia;
 	color: #4aaaa5;
 
+}
+
+hr {
+	margin: -10px 15px 15px 20px;
 }
 
 #name {
@@ -119,20 +118,23 @@ p {
 
 #socialLinks {
 	position: relative;
+	text-align: center;
 	float: right;
 	margin-top: 50px;
 	margin-right: 240px;
 	width: 268px;
 	height: 201px;
+	padding-left: 10px;
 	background-color: #ffffff;
 	border: 2px solid black;
-	text-align: center;
+	
 	
 }
 
 #socialLinks img {
-	height: 50px;
-	width: 50px;
+	height: 65px;
+	width: 65px;
+	align-content: center;
 }
 
 
