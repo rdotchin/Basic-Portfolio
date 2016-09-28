@@ -1,5 +1,5 @@
 body {
-	position: fixed;
+	
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/cork-wallet.png");
@@ -21,33 +21,45 @@ h1 h3 {
 }
 
 hr {
-	margin: -10px 15px 15px 20px;
+	height: 3px;
+	margin: 0px 30px 15px 30px;
+	background-color: #777777;
+}
+
+h3 hr {
+	margin-top: 10px;
+}
+
+header {
+	z-index: 1;
+	width: 90%;
+	height: 74px;
+	border: 2px solid #cccccc;
+	background-color: #ffffff;
 }
 
 #name {
 	position: absolute;
 	margin-left: 157px;
-	margin-top: -10px;
 	background-color: #4aaaa5;
-	height: 80px;
+	height: 74px;
 	width: 300px;
 	display: inline;
-	border: black solid 2px;
 	text-align: center;
-	color: white;
+	color: #ffffff;
 }
 
-#menu {
-	text-align: right;
-	padding-top:1px;
-	padding-bottom:15px;
-	margin-top: 10px;
-	margin-right: 240px;
-	background-color: #ffffff;
 
+nav {
+	text-align: right;
+	font-size: 20px;
+	margin-top: 11px;
+	margin-right: 97px;
+	background-color: #ffffff;
 }
 
 ul {
+	float: right;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -56,94 +68,69 @@ ul {
 
 
 
-li a {
-	float: right;
-	display: inline-block;
+li  {
+	float: left;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
-	color: #777777;
 	transition: 0.3s;
 	border-right: 1px solid #777777;
 }
 
-
-
-
-header {
-	z-index: 1;
-	width: 100%;
-	height: 74px;
-	border: 2px solid black;
-	background-color: #ffffff;
-	border-color: #cccccc;
-	z-index: 1;
-}
-
-#aboutme {
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	margin-left: 157px;
-	width: 647px; 
-	height: 478px;
-	background-color: #ffffff;
-	border: solid 2px black;
-	margin-bottom: 20px;
-}
-
-#aboutme h1 {
-	color: #4aaaa5;
-	margin-left: 5%;
-}
-
-img {
-	float: left;
-	border: 1px blue;
-	margin-left: 5%;
-	padding-right: 10px;
-}
-
-p {
-	margin-left: 5%;
-	margin-right: 5%;
-	line-height: 150%;
-	font-family: arial;
+a {
+	text-decoration: none;
 	color: #777777;
-	text-align: left;
-	border: 1px red;
-	
+
+}
+
+li a:hover {
+	color: #404040;
+	font-size: 115%;
+}
+
+li+li+li {
+	border-right: none;
 }
 
 
-#socialLinks {
-	position: relative;
+
+
+
+
+
+
+aside {
 	text-align: center;
 	float: right;
 	margin-top: 50px;
-	margin-right: 240px;
-	width: 268px;
-	height: 201px;
-	padding-left: 10px;
+	margin-right: 238px;
+	width: 270px;
+	height: 200px;
 	background-color: #ffffff;
-	border: 2px solid black;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
 	
 	
 }
 
-#socialLinks img {
-	height: 65px;
-	width: 65px;
+aside a img {
+	position: relative;
+	padding: 1px;
+	height: 70px;
+	width: 70px;
+	margin-top: 20px;
 	align-content: center;
 }
 
+a img:hover {
+	outline: 2px solid #666666;
+}
 
 #footer {
 	position: relative;
 	font-family: arial;
 	background-color: #666666;
 	height: 91px;
-	width: 100%;
+	width: 90%;
 	clear: both;
 	border-top: 9px solid #4aaaa5;
 	
@@ -151,56 +138,12 @@ p {
 
 #footer p {
 	text-align: center;
+	margin-top: 32px;
+	color: #ffffff;
 	
 }
 
-#portfolio{
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	margin-left: 157px;
-	width: 650px; 
-	height: 800px;
-	background-color: #ffffff;
-	border: solid 2px black;
-	margin-bottom: 20px;
-}
-
-#portfolio h1 {
-	color: #4aaaa5;
-	margin-left: 5%;
-	border-bottom: 1px solid black;
-}
-#portfolio img {
-	position: relative;
-	border: 20px solid white;
-	column-count: 2;
-	column-gap: 10px;
-	column-span: all;
-	height: 200px;
-	width: 200px;
-}
 
 
-textarea {
-	outline: none;
-	border: 1px solid #dddddd;
-}
 
-#textinput {
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	margin-left: 157px;
-	width: 650px; 
-	height: 610px;
-	background-color: #ffffff;
-	border: solid 2px black;
-	margin-bottom: 20px;
 
-}
-
-textarea {
-	height: 200px;
-	width: 590px;
-}

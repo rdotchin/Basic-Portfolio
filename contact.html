@@ -3,8 +3,9 @@
 <head>
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 </head>
-<body background="assets/images/cork-wallet.png">
+<body>
 <div id="wrapper">
 	
 	<header>
@@ -13,47 +14,50 @@
 			<h1>Richard Dotchin</h1>
 		</div>
 		<!--This is the menu bar in the upper right-->
-		<div id="menu">
+		<nav>
 			<ul>
 				<li><a href="index.html">About</a></li>
 				<li><a href="portfolio.html">Portfolio</a></li>	
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 	
 	<div id="textinput">
-		<!--heading for Contact-->
+		<!--heading for Contact--> 
 		<h1>Contact</h1>
 		<hr>
 		<!--name, email, message form-->
 		<form>
 			Name<br>
-			<input type="text" name="fullname">
-			<br>
+			<input type="text" name="fullname" placeholder="John Smith">
+			<br><br>
 			Email
 			<br>
-			<input type="text" name="email">
-			<br>
-			message<br>
-			<textarea type="text" name="message"></textarea>
+			<input type="text" name="email" placeholder="example@gmail.com">
+			<br><br>
+			Message<br>
+			<textarea name="message"></textarea>
 			<br>
 			<button>Submit</button>
 		</form>
 	</div>
 	
-	<!--button to submit their message-->
+	
 	
 
 	<!--social links on the right side of the page-->
-	<div id="socialLinks">
-		<h3>Connect with Me</h3>
-		<hr>	
-		<a href="https://github.com/rdotchin" target="_blank"> <img src="assets/images/github.png" alt="github"> </a>
-		<a href="https://www.linkedin.com/in/richarddotchin" target="_blank"> <img src="assets/images/linkedin.png" alt="linkedin"> </a>
-		<a href="https://stackoverflow.com/users/6862094/rdotchin?tab=profile" target="_blank"> <img src="assets/images/stackoverflow.png" alt="stackoverflow"> </a>
-	</div>
-	<!--footer of the page-->
+		<aside>
+			<h3>Connect with Me</h3>
+
+			<hr>
+			
+			<a href="https://github.com/rdotchin" target="_blank"> <img src="assets/images/github.png" alt="github"> </a>
+			<a href="https://www.linkedin.com/in/richarddotchin" target="_blank"> <img src="assets/images/linkedin.png" alt="linkedin"> </a>
+			<a href="https://stackoverflow.com/users/6862094/rdotchin?tab=profile" target="_blank"> <img src="assets/images/stackoverflow.png" alt="stackoverflow"> </a>
+		</aside>
+
+	<!--site footer-->	
 	<footer id="footer">
 		<p>&copy;Copyright 2016 Richard Dotchin</p>
 	</footer>
