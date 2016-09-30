@@ -18,18 +18,27 @@ body {
     width:1355px;
 }
 
-h1, h3 {
+h1 {
 	font-family: Georgia;
 	color: #4aaaa5;
+	font-size: 28px;
+	margin-top: 20px;
 }
 
+h3 {
+	font-family: Georgia;
+	color: #4aaaa5;
+	font-size: 24px;
+	margin-top: 20px;
+}
 h2 {
-	font-size: 28px;
+	font-size: 33px;
+	margin-top: 21px;
 }
 
 hr {
 	height: 3px;
-	margin: 0px 30px 15px 30px;
+	margin: 12px 30px 15px 30px;
 	background-color: #777777;
 }
 
